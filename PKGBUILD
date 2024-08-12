@@ -23,10 +23,7 @@ license=(
   AGPL3
 )
 depends=(
-  "android-sreenrecorder"
-  "android-audiorecorder"
   "libcrash-bash"
-  "media-tools"
 )
 _os="$( \
   uname \
@@ -34,6 +31,8 @@ _os="$( \
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
+    android-utils
+    tsu
   )
 optdepends=(
 )
