@@ -5,7 +5,7 @@
 
 _offline="false"
 _git="false"
-pkgname=android-screenrecorder
+pkgname=android-screen-recorder
 pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
 _commit="47488ff5284d02681532bdf9fed3260482b5c526"
 pkgrel=1
