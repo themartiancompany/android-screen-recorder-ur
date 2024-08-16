@@ -1,6 +1,6 @@
 pkgbase = android-screen-recorder
 	pkgdesc = Android recorder.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/android-screen-recorder
 	arch = any
@@ -10,8 +10,8 @@ pkgbase = android-screen-recorder
 	depends = libcrash-bash
 	depends = android-utils
 	depends = tsu
-	source = android-screen-recorder-47488ff5284d02681532bdf9fed3260482b5c526.zip::https://github.com/themartiancompany/android-screen-recorder/archive/47488ff5284d02681532bdf9fed3260482b5c526.zip
+	source = android-screen-recorder-743c0c6a2eb6d905ab3767422c2b9ce0fd8fac88.zip::https://github.com/themartiancompany/android-screen-recorder/archive/743c0c6a2eb6d905ab3767422c2b9ce0fd8fac88.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = 90c16ed8c5a7a5acecae52d3df924677c640a88abc6676ff0c82594fd6f1c496
+	sha256sums = ea30182b1cee615f5cefd20db4bbfdd3d93bd5c708245f1b03463f44b8f4f808
 
 pkgname = android-screen-recorder

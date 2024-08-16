@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=android-screen-recorder
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
-_commit="47488ff5284d02681532bdf9fed3260482b5c526"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
+_commit="743c0c6a2eb6d905ab3767422c2b9ce0fd8fac88"
 pkgrel=1
 _pkgdesc=(
   "Android recorder."
@@ -70,7 +70,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="64bbb4d025936837397028b40a3febd217252e295fa800300242f1a6fbcf110d"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="90c16ed8c5a7a5acecae52d3df924677c640a88abc6676ff0c82594fd6f1c496"
+    _sum="ea30182b1cee615f5cefd20db4bbfdd3d93bd5c708245f1b03463f44b8f4f808"
   fi && \
     source+=(
       "${_tar}"
